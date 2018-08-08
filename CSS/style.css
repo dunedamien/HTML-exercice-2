@@ -1,0 +1,106 @@
+#exo {
+    color: blueviolet;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+#paragraphe {
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 1%;
+}
+
+#paragraphe:hover {
+    overflow: visible;
+}
+
+.tabulation {
+    margin-left: 40px;
+}
+
+li.carre{
+    list-style: square; 
+    color: red;
+}
+
+li:first-line{
+    color:black
+}
+
+.aside {
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    width: 100%;
+    max-width: 100%;
+}
+
+.aside_1 {
+    background-color: lavender;
+    height: 80px;
+    text-align: center;
+}
+
+.aside_2 {
+    height: 130px;
+    text-align: left;
+}
+
+.aside_3 {
+    text-align: left;
+}
+
+.aside_4 {
+    height: auto;
+    text-align: left;
+}
+
+.aside_5 {
+    height: auto;
+    text-align: left;
+}
+
+.aside_6 {
+    height: auto;
+    text-align: left;
+}
+
+.aside_7 {
+    height: auto;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+
+tr{
+    height: 20px;
+}
+td{
+    width: 400px;
+}
+th{
+    background-color: #554348;
+    border: 1px solid #554348;
+    color:white;
+}
+
+td{
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: #D4F5F5;
+}
+/*Toutes les lignes impaires : la 1e, la 3e, la 5e, etc.*/
+
+tr:nth-child(even){
+    background-color: #8C9A9E;
+}
+/*Toutes les lignes paires : la 2e, la 4e, la 6e, etc.*/
